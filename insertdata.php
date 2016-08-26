@@ -18,7 +18,7 @@
     	}
     }
 
-    $sql="CALL SpInsertUser('$username','$password')";
+    $sql="INSERT INTO user(username,password) values('$username','$password')";
 
     if($con->query($sql) === TRUE){
     	echo "New record created successfully";

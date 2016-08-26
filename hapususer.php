@@ -17,9 +17,9 @@
 	$sql="DELETE FROM user where id='$idUser'";
 
     if($con->query($sql) === TRUE){
-    	echo "1 Delete user dengan id='$idUser' successfully";
+    	echo "Delete user dengan id='$idUser' successfully";
     }else {
-    	echo "0 Error: " . $sql . "<br>" . $con->error;
+    	echo "Error: " . $sql . " " . $con->error;
 	}
 
 	$con->close();

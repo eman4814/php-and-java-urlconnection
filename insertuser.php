@@ -1,6 +1,6 @@
 <?php 
 
-	include "koneksi.php";
+	require "koneksi.php";
 
 	$username="";
 	$password="";
@@ -21,9 +21,9 @@
     $sql="INSERT INTO user(username,password) values('$username','$password')";
 
     if($con->query($sql) === TRUE){
-    	echo "1 Insert user dengan username='$username' successfully";
+    	echo "Insert user dengan username='$username' successfully";
     }else {
-    	echo "0 Error: " . $sql . "<br>" . $con->error;
+    	echo "Error: " . $sql . " " . $con->error;
 	}
 
 	$con->close();

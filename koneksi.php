@@ -1,8 +1,8 @@
 <?php 
-	$dbhost="localhost";
-	$dbuser="root";
-	$dbpass="";
-	$dbname="urlconnection";
+	$dbhost="mysql.idhostinger.com";
+	$dbuser="u550365818_root";
+	$dbpass="fssadmin";
+	$dbname="u550365818_fss";
 
 	//melakukan koneksi ke database
 	$con= new mysqli($dbhost,$dbuser,$dbpass,$dbname);

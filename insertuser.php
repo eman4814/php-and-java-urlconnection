@@ -21,7 +21,7 @@
     $sql="INSERT INTO user(username,password) values('$username','$password')";
 
     if($con->query($sql) === TRUE){
-    	echo "New record created successfully";
+    	echo "Insert user dengan username='$username' successfully";
     }else {
     	echo "Error: " . $sql . "<br>" . $con->error;
 	}

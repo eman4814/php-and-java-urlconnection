@@ -9,6 +9,8 @@
 			$data[] = $row;
 		}
 		print json_encode($data);
+	}else{
+		echo "[data kosong]";
 	}
 
  ?>

@@ -10,7 +10,7 @@
 		}
 		print json_encode($data);
 	}else{
-		echo "[{"id":"","username":"","password":""}]";
+		echo "[{"id":"0","username":"0","password":"0"}]";
 	}
 
  ?>

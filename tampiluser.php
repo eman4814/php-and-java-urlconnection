@@ -10,7 +10,7 @@
 		}
 		print json_encode($data);
 	}else{
-		echo "404";
+		echo "[{"id":"","username":"","password":""}]";
 	}
 
  ?>

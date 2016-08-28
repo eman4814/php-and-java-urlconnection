@@ -10,7 +10,7 @@
 		}
 		print json_encode($data);
 	}else{
-		echo "[data kosong]";
+		echo "[{"id":"","username":"","password":""}]";
 	}
 
  ?>
